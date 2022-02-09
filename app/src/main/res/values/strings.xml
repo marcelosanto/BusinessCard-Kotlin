@@ -2,4 +2,11 @@
     <string name="app_name">BussinesCard</string>
     <string name="label_business_cards">Cartão de Visita</string>
     <string name="button_add_card">botão de adicão de cartão</string>
+    <string name="label_description_new_card">Novo Cartão</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="nome_da_empresa">Empresa</string>
+    <string name="cor">Cor</string>
+    <string name="label_btn_confirmar">Confirmar</string>
 </resources>
