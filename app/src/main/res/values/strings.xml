@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BussinesCard</string>
+    <string name="label_business_cards">Cartão de Visita</string>
+    <string name="button_add_card">botão de adicão de cartão</string>
 </resources>
