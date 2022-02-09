@@ -1,9 +1,8 @@
 package xyz.com.marcelo.bussinescard.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import xyz.com.marcelo.bussinescard.databinding.ActivityAddBusinessCardBinding
-import xyz.com.marcelo.bussinescard.databinding.ActivityMainBinding
 
 class AddBusinessCardActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAddBusinessCardBinding
@@ -13,5 +12,17 @@ class AddBusinessCardActivity : AppCompatActivity() {
         binding = ActivityAddBusinessCardBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+        insertListeners()
+    }
+
+    private fun insertListeners() {
+        binding.btnClose.setOnClickListener {
+            finish()
+        }
+
+        binding.btnConfirmar.setOnClickListener {
+            finish()
+        }
     }
 }
